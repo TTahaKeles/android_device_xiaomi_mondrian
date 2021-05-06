@@ -311,13 +311,17 @@
          -->
     <string name="config_mainBuiltInDisplayCutout" translatable="false">M 0,0 H -34 V 120 H 34 V 0 H 0 Z</string>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 4a82771 (mondrian: overlay: Enable USB and skin temperature warnings)
      
     <!-- Whether to show a warning notification when device's skin temperature is high. -->
     <integer name="config_showTemperatureWarning">1</integer>
     
     <!-- Whether to show a alarm dialog when device's usb port is overheating. -->
     <integer name="config_showUsbPortAlarm">1</integer>
+<<<<<<< HEAD
     
     <!-- Whether WM DisplayContent supports high performance transitions
          (lower-end devices may want to disable) -->
@@ -344,4 +348,6 @@
 >>>>>>> d3306c2 (mondrian: overlay: Add overlay to improve signal reception)
 =======
 >>>>>>> 147b27c (mondrian: overlays: Enable high performance transitions)
+=======
+>>>>>>> 4a82771 (mondrian: overlay: Enable USB and skin temperature warnings)
 </resources>
