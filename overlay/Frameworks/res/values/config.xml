@@ -325,6 +325,7 @@
 
     <!--Useful if you want to improve signal reception -->
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
+<<<<<<< HEAD
 
     <!-- Whether device implements proximity sensor based checks to prevent
          accidental unlocks when the screen is off. -->
@@ -338,4 +339,6 @@
 >>>>>>> 3b6acfc (mondrian: overlay: Enable haptic text cursor)
 =======
 >>>>>>> 60a7683 (mondrian: overlay: Enable config_proximityCheckOnFpsUnlock)
+=======
+>>>>>>> d3306c2 (mondrian: overlay: Add overlay to improve signal reception)
 </resources>
