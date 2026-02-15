@@ -53,3 +53,6 @@ $(call soong_config_set_bool,qti_vibrator,use_effect_stream,true)
 # Dolby compatibility matrix
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     hardware/dolby/dolby_framework_matrix.xml
+
+# Call the MiuiCamera setup
+$(call inherit-product-if-exists, device/xiaomi/miuicamera-mondrian/device.mk)

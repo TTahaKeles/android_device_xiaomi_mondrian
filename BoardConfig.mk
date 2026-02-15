@@ -22,3 +22,9 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
 
 # Screen density
 TARGET_SCREEN_DENSITY := 560
+
+# Inherit from proprietary files for miuicamera
+-include device/xiaomi/miuicamera-mondrian/BoardConfig.mk
+
+# Camera - Miui
+TARGET_CAMERA_PACKAGE_NAME := com.android.camera
