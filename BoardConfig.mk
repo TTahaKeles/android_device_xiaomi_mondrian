@@ -27,4 +27,4 @@ TARGET_SCREEN_DENSITY := 560
 -include device/xiaomi/miuicamera-mondrian/BoardConfig.mk
 
 # Camera - Miui
-TARGET_CAMERA_PACKAGE_NAME := com.android.camera
+$(call soong_config_set,camera,package_name,com.android.camera)
